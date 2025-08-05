@@ -13,7 +13,7 @@ python-dotenv
 
 # 🤖 LLM + Embeddings
 openai
-cohere
+
 sentence-transformers
 
 # 🔍 Vector search

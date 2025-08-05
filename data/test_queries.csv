@@ -1,0 +1,1001 @@
+query,expected
+"45M, hernia surgery, 3-month policy",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"40M, appendix removal in Hyderabad",approved
+"25F, acne treatment at clinic",rejected
+"28M, cosmetic nose surgery",rejected
+"25F, acne treatment at clinic",rejected
+"33F, C-section delivery, 1-year policy",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"30F, vision correction laser surgery",rejected
+"38F, knee pain medication claim",rejected
+"30F, vision correction laser surgery",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"30F, vision correction laser surgery",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"40M, appendix removal in Hyderabad",approved
+"42M, accident injury claim in Mumbai",approved
+"45M, hernia surgery, 3-month policy",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"29F, dental cleaning",rejected
+"40M, appendix removal in Hyderabad",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"29F, dental cleaning",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"30F, vision correction laser surgery",rejected
+"30F, vision correction laser surgery",rejected
+"40M, appendix removal in Hyderabad",approved
+"54M, spine surgery advised by doctor",approved
+"45M, hernia surgery, 3-month policy",rejected
+"65M, stroke emergency hospitalization",approved
+"42M, accident injury claim in Mumbai",approved
+"65M, stroke emergency hospitalization",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"38F, knee pain medication claim",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"26F, therapy for anxiety",rejected
+"38F, knee pain medication claim",rejected
+"30F, vision correction laser surgery",rejected
+"28M, cosmetic nose surgery",rejected
+"42M, accident injury claim in Mumbai",approved
+"35F, weight loss surgery with BMI 42",approved
+"37F, gallstones removal not advised by doctor",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"48M, cataract surgery in Delhi",approved
+"65M, stroke emergency hospitalization",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"25F, acne treatment at clinic",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"26F, therapy for anxiety",rejected
+"35F, weight loss surgery with BMI 42",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"25F, acne treatment at clinic",rejected
+"40M, appendix removal in Hyderabad",approved
+"65M, stroke emergency hospitalization",approved
+"30F, vision correction laser surgery",rejected
+"25F, acne treatment at clinic",rejected
+"33F, C-section delivery, 1-year policy",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"28M, cosmetic nose surgery",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"48M, cataract surgery in Delhi",approved
+"29F, dental cleaning",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"25F, acne treatment at clinic",rejected
+"33F, C-section delivery, 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"54M, spine surgery advised by doctor",approved
+"42M, accident injury claim in Mumbai",approved
+"30F, vision correction laser surgery",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"30F, vision correction laser surgery",rejected
+"38F, knee pain medication claim",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"48M, cataract surgery in Delhi",approved
+"38F, knee pain medication claim",rejected
+"33F, C-section delivery, 1-year policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"35F, weight loss surgery with BMI 42",approved
+"60M, heart bypass with 1-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"42M, accident injury claim in Mumbai",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"48M, cataract surgery in Delhi",approved
+"28M, cosmetic nose surgery",rejected
+"29F, dental cleaning",rejected
+"25F, acne treatment at clinic",rejected
+"60M, heart bypass with 1-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"45M, hernia surgery, 3-month policy",rejected
+"65M, stroke emergency hospitalization",approved
+"54M, spine surgery advised by doctor",approved
+"28M, cosmetic nose surgery",rejected
+"35F, weight loss surgery with BMI 42",approved
+"54M, spine surgery advised by doctor",approved
+"60M, heart bypass with 1-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"26F, therapy for anxiety",rejected
+"35F, weight loss surgery with BMI 42",approved
+"54M, spine surgery advised by doctor",approved
+"60M, heart bypass with 1-year policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"29F, dental cleaning",rejected
+"48M, cataract surgery in Delhi",approved
+"42M, accident injury claim in Mumbai",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"65M, stroke emergency hospitalization",approved
+"54M, spine surgery advised by doctor",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"37F, gallstones removal not advised by doctor",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"42M, accident injury claim in Mumbai",approved
+"40M, appendix removal in Hyderabad",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"28M, cosmetic nose surgery",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"38F, knee pain medication claim",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"25F, acne treatment at clinic",rejected
+"48M, cataract surgery in Delhi",approved
+"48M, cataract surgery in Delhi",approved
+"26F, therapy for anxiety",rejected
+"33F, C-section delivery, 1-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"28M, cosmetic nose surgery",rejected
+"33F, C-section delivery, 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"54M, spine surgery advised by doctor",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"28M, cosmetic nose surgery",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"33F, C-section delivery, 1-year policy",approved
+"48M, cataract surgery in Delhi",approved
+"38F, knee pain medication claim",rejected
+"33F, C-section delivery, 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"35F, weight loss surgery with BMI 42",approved
+"35F, weight loss surgery with BMI 42",approved
+"54M, spine surgery advised by doctor",approved
+"54M, spine surgery advised by doctor",approved
+"37F, gallstones removal not advised by doctor",rejected
+"65M, stroke emergency hospitalization",approved
+"29F, dental cleaning",rejected
+"65M, stroke emergency hospitalization",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"40M, appendix removal in Hyderabad",approved
+"37F, gallstones removal not advised by doctor",rejected
+"60M, heart bypass with 1-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"25F, acne treatment at clinic",rejected
+"40M, appendix removal in Hyderabad",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"60M, heart bypass with 1-year policy",approved
+"25F, acne treatment at clinic",rejected
+"54M, spine surgery advised by doctor",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"38F, knee pain medication claim",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"54M, spine surgery advised by doctor",approved
+"26F, therapy for anxiety",rejected
+"60M, heart bypass with 1-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"38F, knee pain medication claim",rejected
+"26F, therapy for anxiety",rejected
+"28M, cosmetic nose surgery",rejected
+"26F, therapy for anxiety",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"65M, stroke emergency hospitalization",approved
+"37F, gallstones removal not advised by doctor",rejected
+"25F, acne treatment at clinic",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"38F, knee pain medication claim",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"48M, cataract surgery in Delhi",approved
+"40M, appendix removal in Hyderabad",approved
+"65M, stroke emergency hospitalization",approved
+"29F, dental cleaning",rejected
+"60M, heart bypass with 1-year policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"54M, spine surgery advised by doctor",approved
+"45M, hernia surgery, 3-month policy",rejected
+"60M, heart bypass with 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"65M, stroke emergency hospitalization",approved
+"54M, spine surgery advised by doctor",approved
+"35F, weight loss surgery with BMI 42",approved
+"32F, gall bladder removal, 2-year policy",approved
+"29F, dental cleaning",rejected
+"38F, knee pain medication claim",rejected
+"60M, heart bypass with 1-year policy",approved
+"29F, dental cleaning",rejected
+"65M, stroke emergency hospitalization",approved
+"26F, therapy for anxiety",rejected
+"48M, cataract surgery in Delhi",approved
+"42M, accident injury claim in Mumbai",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"29F, dental cleaning",rejected
+"48M, cataract surgery in Delhi",approved
+"54M, spine surgery advised by doctor",approved
+"30F, vision correction laser surgery",rejected
+"33F, C-section delivery, 1-year policy",approved
+"38F, knee pain medication claim",rejected
+"33F, C-section delivery, 1-year policy",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"26F, therapy for anxiety",rejected
+"35F, weight loss surgery with BMI 42",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"42M, accident injury claim in Mumbai",approved
+"30F, vision correction laser surgery",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"40M, appendix removal in Hyderabad",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"29F, dental cleaning",rejected
+"38F, knee pain medication claim",rejected
+"25F, acne treatment at clinic",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"25F, acne treatment at clinic",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"54M, spine surgery advised by doctor",approved
+"30F, vision correction laser surgery",rejected
+"33F, C-section delivery, 1-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"30F, vision correction laser surgery",rejected
+"48M, cataract surgery in Delhi",approved
+"35F, weight loss surgery with BMI 42",approved
+"54M, spine surgery advised by doctor",approved
+"38F, knee pain medication claim",rejected
+"54M, spine surgery advised by doctor",approved
+"65M, stroke emergency hospitalization",approved
+"54M, spine surgery advised by doctor",approved
+"60M, heart bypass with 1-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"37F, gallstones removal not advised by doctor",rejected
+"40M, appendix removal in Hyderabad",approved
+"25F, acne treatment at clinic",rejected
+"48M, cataract surgery in Delhi",approved
+"60M, heart bypass with 1-year policy",approved
+"40M, appendix removal in Hyderabad",approved
+"25F, acne treatment at clinic",rejected
+"54M, spine surgery advised by doctor",approved
+"45M, hernia surgery, 3-month policy",rejected
+"30F, vision correction laser surgery",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"33F, C-section delivery, 1-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"48M, cataract surgery in Delhi",approved
+"40M, appendix removal in Hyderabad",approved
+"32F, gall bladder removal, 2-year policy",approved
+"29F, dental cleaning",rejected
+"54M, spine surgery advised by doctor",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"29F, dental cleaning",rejected
+"26F, therapy for anxiety",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"28M, cosmetic nose surgery",rejected
+"33F, C-section delivery, 1-year policy",approved
+"26F, therapy for anxiety",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"65M, stroke emergency hospitalization",approved
+"37F, gallstones removal not advised by doctor",rejected
+"25F, acne treatment at clinic",rejected
+"54M, spine surgery advised by doctor",approved
+"40M, appendix removal in Hyderabad",approved
+"40M, appendix removal in Hyderabad",approved
+"25F, acne treatment at clinic",rejected
+"60M, heart bypass with 1-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"65M, stroke emergency hospitalization",approved
+"40M, appendix removal in Hyderabad",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"60M, heart bypass with 1-year policy",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"38F, knee pain medication claim",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"48M, cataract surgery in Delhi",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"26F, therapy for anxiety",rejected
+"29F, dental cleaning",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"33F, C-section delivery, 1-year policy",approved
+"54M, spine surgery advised by doctor",approved
+"29F, dental cleaning",rejected
+"28M, cosmetic nose surgery",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"25F, acne treatment at clinic",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"38F, knee pain medication claim",rejected
+"54M, spine surgery advised by doctor",approved
+"32F, gall bladder removal, 2-year policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"37F, gallstones removal not advised by doctor",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"40M, appendix removal in Hyderabad",approved
+"29F, dental cleaning",rejected
+"25F, acne treatment at clinic",rejected
+"35F, weight loss surgery with BMI 42",approved
+"38F, knee pain medication claim",rejected
+"42M, accident injury claim in Mumbai",approved
+"60M, heart bypass with 1-year policy",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"65M, stroke emergency hospitalization",approved
+"25F, acne treatment at clinic",rejected
+"26F, therapy for anxiety",rejected
+"40M, appendix removal in Hyderabad",approved
+"26F, therapy for anxiety",rejected
+"38F, knee pain medication claim",rejected
+"35F, weight loss surgery with BMI 42",approved
+"48M, cataract surgery in Delhi",approved
+"42M, accident injury claim in Mumbai",approved
+"45M, hernia surgery, 3-month policy",rejected
+"65M, stroke emergency hospitalization",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"48M, cataract surgery in Delhi",approved
+"28M, cosmetic nose surgery",rejected
+"40M, appendix removal in Hyderabad",approved
+"32F, gall bladder removal, 2-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"48M, cataract surgery in Delhi",approved
+"33F, C-section delivery, 1-year policy",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"42M, accident injury claim in Mumbai",approved
+"37F, gallstones removal not advised by doctor",rejected
+"54M, spine surgery advised by doctor",approved
+"32F, gall bladder removal, 2-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"54M, spine surgery advised by doctor",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"60M, heart bypass with 1-year policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"48M, cataract surgery in Delhi",approved
+"28M, cosmetic nose surgery",rejected
+"29F, dental cleaning",rejected
+"48M, cataract surgery in Delhi",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"60M, heart bypass with 1-year policy",approved
+"26F, therapy for anxiety",rejected
+"25F, acne treatment at clinic",rejected
+"35F, weight loss surgery with BMI 42",approved
+"35F, weight loss surgery with BMI 42",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"29F, dental cleaning",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"60M, heart bypass with 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"38F, knee pain medication claim",rejected
+"25F, acne treatment at clinic",rejected
+"25F, acne treatment at clinic",rejected
+"65M, stroke emergency hospitalization",approved
+"48M, cataract surgery in Delhi",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"26F, therapy for anxiety",rejected
+"25F, acne treatment at clinic",rejected
+"26F, therapy for anxiety",rejected
+"60M, heart bypass with 1-year policy",approved
+"30F, vision correction laser surgery",rejected
+"33F, C-section delivery, 1-year policy",approved
+"28M, cosmetic nose surgery",rejected
+"48M, cataract surgery in Delhi",approved
+"40M, appendix removal in Hyderabad",approved
+"26F, therapy for anxiety",rejected
+"40M, appendix removal in Hyderabad",approved
+"30F, vision correction laser surgery",rejected
+"48M, cataract surgery in Delhi",approved
+"60M, heart bypass with 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"37F, gallstones removal not advised by doctor",rejected
+"65M, stroke emergency hospitalization",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"54M, spine surgery advised by doctor",approved
+"65M, stroke emergency hospitalization",approved
+"54M, spine surgery advised by doctor",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"26F, therapy for anxiety",rejected
+"60M, heart bypass with 1-year policy",approved
+"28M, cosmetic nose surgery",rejected
+"60M, heart bypass with 1-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"32F, gall bladder removal, 2-year policy",approved
+"30F, vision correction laser surgery",rejected
+"65M, stroke emergency hospitalization",approved
+"33F, C-section delivery, 1-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"29F, dental cleaning",rejected
+"35F, weight loss surgery with BMI 42",approved
+"65M, stroke emergency hospitalization",approved
+"29F, dental cleaning",rejected
+"40M, appendix removal in Hyderabad",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"54M, spine surgery advised by doctor",approved
+"45M, hernia surgery, 3-month policy",rejected
+"54M, spine surgery advised by doctor",approved
+"26F, therapy for anxiety",rejected
+"60M, heart bypass with 1-year policy",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"30F, vision correction laser surgery",rejected
+"40M, appendix removal in Hyderabad",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"30F, vision correction laser surgery",rejected
+"28M, cosmetic nose surgery",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"65M, stroke emergency hospitalization",approved
+"60M, heart bypass with 1-year policy",approved
+"48M, cataract surgery in Delhi",approved
+"32F, gall bladder removal, 2-year policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"37F, gallstones removal not advised by doctor",rejected
+"40M, appendix removal in Hyderabad",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"29F, dental cleaning",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"54M, spine surgery advised by doctor",approved
+"35F, weight loss surgery with BMI 42",approved
+"40M, appendix removal in Hyderabad",approved
+"42M, accident injury claim in Mumbai",approved
+"28M, cosmetic nose surgery",rejected
+"38F, knee pain medication claim",rejected
+"25F, acne treatment at clinic",rejected
+"25F, acne treatment at clinic",rejected
+"33F, C-section delivery, 1-year policy",approved
+"38F, knee pain medication claim",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"25F, acne treatment at clinic",rejected
+"35F, weight loss surgery with BMI 42",approved
+"48M, cataract surgery in Delhi",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"54M, spine surgery advised by doctor",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"35F, weight loss surgery with BMI 42",approved
+"54M, spine surgery advised by doctor",approved
+"25F, acne treatment at clinic",rejected
+"29F, dental cleaning",rejected
+"26F, therapy for anxiety",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"26F, therapy for anxiety",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"38F, knee pain medication claim",rejected
+"26F, therapy for anxiety",rejected
+"28M, cosmetic nose surgery",rejected
+"60M, heart bypass with 1-year policy",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"29F, dental cleaning",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"40M, appendix removal in Hyderabad",approved
+"60M, heart bypass with 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"32F, gall bladder removal, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"60M, heart bypass with 1-year policy",approved
+"29F, dental cleaning",rejected
+"25F, acne treatment at clinic",rejected
+"25F, acne treatment at clinic",rejected
+"40M, appendix removal in Hyderabad",approved
+"29F, dental cleaning",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"65M, stroke emergency hospitalization",approved
+"38F, knee pain medication claim",rejected
+"30F, vision correction laser surgery",rejected
+"65M, stroke emergency hospitalization",approved
+"32F, gall bladder removal, 2-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"35F, weight loss surgery with BMI 42",approved
+"54M, spine surgery advised by doctor",approved
+"33F, C-section delivery, 1-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"35F, weight loss surgery with BMI 42",approved
+"42M, accident injury claim in Mumbai",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"42M, accident injury claim in Mumbai",approved
+"29F, dental cleaning",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"45M, hernia surgery, 3-month policy",rejected
+"60M, heart bypass with 1-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"65M, stroke emergency hospitalization",approved
+"65M, stroke emergency hospitalization",approved
+"25F, acne treatment at clinic",rejected
+"65M, stroke emergency hospitalization",approved
+"45M, hernia surgery, 3-month policy",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"26F, therapy for anxiety",rejected
+"65M, stroke emergency hospitalization",approved
+"60M, heart bypass with 1-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"40M, appendix removal in Hyderabad",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"38F, knee pain medication claim",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"54M, spine surgery advised by doctor",approved
+"32F, gall bladder removal, 2-year policy",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"33F, C-section delivery, 1-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"35F, weight loss surgery with BMI 42",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"42M, accident injury claim in Mumbai",approved
+"60M, heart bypass with 1-year policy",approved
+"48M, cataract surgery in Delhi",approved
+"54M, spine surgery advised by doctor",approved
+"25F, acne treatment at clinic",rejected
+"54M, spine surgery advised by doctor",approved
+"38F, knee pain medication claim",rejected
+"48M, cataract surgery in Delhi",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"29F, dental cleaning",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"25F, acne treatment at clinic",rejected
+"40M, appendix removal in Hyderabad",approved
+"48M, cataract surgery in Delhi",approved
+"60M, heart bypass with 1-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"33F, C-section delivery, 1-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"29F, dental cleaning",rejected
+"54M, spine surgery advised by doctor",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"48M, cataract surgery in Delhi",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"48M, cataract surgery in Delhi",approved
+"35F, weight loss surgery with BMI 42",approved
+"45M, hernia surgery, 3-month policy",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"28M, cosmetic nose surgery",rejected
+"60M, heart bypass with 1-year policy",approved
+"30F, vision correction laser surgery",rejected
+"65M, stroke emergency hospitalization",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"48M, cataract surgery in Delhi",approved
+"25F, acne treatment at clinic",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"25F, acne treatment at clinic",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"40M, appendix removal in Hyderabad",approved
+"25F, acne treatment at clinic",rejected
+"28M, cosmetic nose surgery",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"54M, spine surgery advised by doctor",approved
+"45M, hernia surgery, 3-month policy",rejected
+"26F, therapy for anxiety",rejected
+"29F, dental cleaning",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"33F, C-section delivery, 1-year policy",approved
+"54M, spine surgery advised by doctor",approved
+"28M, cosmetic nose surgery",rejected
+"38F, knee pain medication claim",rejected
+"54M, spine surgery advised by doctor",approved
+"60M, heart bypass with 1-year policy",approved
+"48M, cataract surgery in Delhi",approved
+"40M, appendix removal in Hyderabad",approved
+"60M, heart bypass with 1-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"29F, dental cleaning",rejected
+"35F, weight loss surgery with BMI 42",approved
+"45M, hernia surgery, 3-month policy",rejected
+"38F, knee pain medication claim",rejected
+"60M, heart bypass with 1-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"40M, appendix removal in Hyderabad",approved
+"30F, vision correction laser surgery",rejected
+"29F, dental cleaning",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"35F, weight loss surgery with BMI 42",approved
+"29F, dental cleaning",rejected
+"60M, heart bypass with 1-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"25F, acne treatment at clinic",rejected
+"60M, heart bypass with 1-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"45M, hernia surgery, 3-month policy",rejected
+"42M, accident injury claim in Mumbai",approved
+"40M, appendix removal in Hyderabad",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"33F, C-section delivery, 1-year policy",approved
+"40M, appendix removal in Hyderabad",approved
+"33F, C-section delivery, 1-year policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"42M, accident injury claim in Mumbai",approved
+"42M, accident injury claim in Mumbai",approved
+"42M, accident injury claim in Mumbai",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"54M, spine surgery advised by doctor",approved
+"25F, acne treatment at clinic",rejected
+"35F, weight loss surgery with BMI 42",approved
+"26F, therapy for anxiety",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"65M, stroke emergency hospitalization",approved
+"28M, cosmetic nose surgery",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"38F, knee pain medication claim",rejected
+"29F, dental cleaning",rejected
+"25F, acne treatment at clinic",rejected
+"40M, appendix removal in Hyderabad",approved
+"42M, accident injury claim in Mumbai",approved
+"42M, accident injury claim in Mumbai",approved
+"25F, acne treatment at clinic",rejected
+"54M, spine surgery advised by doctor",approved
+"25F, acne treatment at clinic",rejected
+"29F, dental cleaning",rejected
+"48M, cataract surgery in Delhi",approved
+"60M, heart bypass with 1-year policy",approved
+"26F, therapy for anxiety",rejected
+"40M, appendix removal in Hyderabad",approved
+"42M, accident injury claim in Mumbai",approved
+"42M, accident injury claim in Mumbai",approved
+"54M, spine surgery advised by doctor",approved
+"25F, acne treatment at clinic",rejected
+"35F, weight loss surgery with BMI 42",approved
+"37F, gallstones removal not advised by doctor",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"65M, stroke emergency hospitalization",approved
+"29F, dental cleaning",rejected
+"35F, weight loss surgery with BMI 42",approved
+"25F, acne treatment at clinic",rejected
+"33F, C-section delivery, 1-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"54M, spine surgery advised by doctor",approved
+"42M, accident injury claim in Mumbai",approved
+"33F, C-section delivery, 1-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"37F, gallstones removal not advised by doctor",rejected
+"42M, accident injury claim in Mumbai",approved
+"65M, stroke emergency hospitalization",approved
+"60M, heart bypass with 1-year policy",approved
+"29F, dental cleaning",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"29F, dental cleaning",rejected
+"30F, vision correction laser surgery",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"29F, dental cleaning",rejected
+"42M, accident injury claim in Mumbai",approved
+"37F, gallstones removal not advised by doctor",rejected
+"42M, accident injury claim in Mumbai",approved
+"48M, cataract surgery in Delhi",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"28M, cosmetic nose surgery",rejected
+"30F, vision correction laser surgery",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"65M, stroke emergency hospitalization",approved
+"38F, knee pain medication claim",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"37F, gallstones removal not advised by doctor",rejected
+"60M, heart bypass with 1-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"26F, therapy for anxiety",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"40M, appendix removal in Hyderabad",approved
+"40M, appendix removal in Hyderabad",approved
+"30F, vision correction laser surgery",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"42M, accident injury claim in Mumbai",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"28M, cosmetic nose surgery",rejected
+"54M, spine surgery advised by doctor",approved
+"60M, heart bypass with 1-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"45M, hernia surgery, 3-month policy",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"25F, acne treatment at clinic",rejected
+"65M, stroke emergency hospitalization",approved
+"40M, appendix removal in Hyderabad",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"30F, vision correction laser surgery",rejected
+"38F, knee pain medication claim",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"38F, knee pain medication claim",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"35F, weight loss surgery with BMI 42",approved
+"26F, therapy for anxiety",rejected
+"28M, cosmetic nose surgery",rejected
+"33F, C-section delivery, 1-year policy",approved
+"29F, dental cleaning",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"33F, C-section delivery, 1-year policy",approved
+"48M, cataract surgery in Delhi",approved
+"25F, acne treatment at clinic",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"28M, cosmetic nose surgery",rejected
+"48M, cataract surgery in Delhi",approved
+"48M, cataract surgery in Delhi",approved
+"33F, C-section delivery, 1-year policy",approved
+"40M, appendix removal in Hyderabad",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"38F, knee pain medication claim",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"29F, dental cleaning",rejected
+"28M, cosmetic nose surgery",rejected
+"35F, weight loss surgery with BMI 42",approved
+"32F, gall bladder removal, 2-year policy",approved
+"25F, acne treatment at clinic",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"25F, acne treatment at clinic",rejected
+"38F, knee pain medication claim",rejected
+"26F, therapy for anxiety",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"25F, acne treatment at clinic",rejected
+"54M, spine surgery advised by doctor",approved
+"60M, heart bypass with 1-year policy",approved
+"28M, cosmetic nose surgery",rejected
+"38F, knee pain medication claim",rejected
+"65M, stroke emergency hospitalization",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"65M, stroke emergency hospitalization",approved
+"60M, heart bypass with 1-year policy",approved
+"26F, therapy for anxiety",rejected
+"30F, vision correction laser surgery",rejected
+"42M, accident injury claim in Mumbai",approved
+"65M, stroke emergency hospitalization",approved
+"26F, therapy for anxiety",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"54M, spine surgery advised by doctor",approved
+"48M, cataract surgery in Delhi",approved
+"60M, heart bypass with 1-year policy",approved
+"48M, cataract surgery in Delhi",approved
+"45M, hernia surgery, 3-month policy",rejected
+"33F, C-section delivery, 1-year policy",approved
+"40M, appendix removal in Hyderabad",approved
+"26F, therapy for anxiety",rejected
+"60M, heart bypass with 1-year policy",approved
+"29F, dental cleaning",rejected
+"45M, hernia surgery, 3-month policy",rejected
+"40M, appendix removal in Hyderabad",approved
+"29F, dental cleaning",rejected
+"33F, C-section delivery, 1-year policy",approved
+"32F, gall bladder removal, 2-year policy",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"25F, acne treatment at clinic",rejected
+"26F, therapy for anxiety",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"45M, hernia surgery, 3-month policy",rejected
+"35F, weight loss surgery with BMI 42",approved
+"37F, gallstones removal not advised by doctor",rejected
+"28M, cosmetic nose surgery",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"35F, weight loss surgery with BMI 42",approved
+"30F, vision correction laser surgery",rejected
+"38F, knee pain medication claim",rejected
+"30F, vision correction laser surgery",rejected
+"48M, cataract surgery in Delhi",approved
+"38F, knee pain medication claim",rejected
+"37F, gallstones removal not advised by doctor",rejected
+"28M, cosmetic nose surgery",rejected
+"30F, vision correction laser surgery",rejected
+"35F, weight loss surgery with BMI 42",approved
+"25F, acne treatment at clinic",rejected
+"33F, C-section delivery, 1-year policy",approved
+"40M, appendix removal in Hyderabad",approved
+"38F, knee pain medication claim",rejected
+"54M, spine surgery advised by doctor",approved
+"30F, vision correction laser surgery",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"29F, dental cleaning",rejected
+"35F, weight loss surgery with BMI 42",approved
+"65M, stroke emergency hospitalization",approved
+"42M, accident injury claim in Mumbai",approved
+"60M, heart bypass with 1-year policy",approved
+"29F, dental cleaning",rejected
+"38F, knee pain medication claim",rejected
+"30F, vision correction laser surgery",rejected
+"30F, vision correction laser surgery",rejected
+"48M, cataract surgery in Delhi",approved
+"40M, appendix removal in Hyderabad",approved
+"33F, C-section delivery, 1-year policy",approved
+"28M, cosmetic nose surgery",rejected
+"33F, C-section delivery, 1-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"33F, C-section delivery, 1-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"48M, cataract surgery in Delhi",approved
+"26F, therapy for anxiety",rejected
+"54M, spine surgery advised by doctor",approved
+"38F, knee pain medication claim",rejected
+"25F, acne treatment at clinic",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"48M, cataract surgery in Delhi",approved
+"65M, stroke emergency hospitalization",approved
+"42M, accident injury claim in Mumbai",approved
+"54M, spine surgery advised by doctor",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"33F, C-section delivery, 1-year policy",approved
+"48M, cataract surgery in Delhi",approved
+"48M, cataract surgery in Delhi",approved
+"54M, spine surgery advised by doctor",approved
+"26F, therapy for anxiety",rejected
+"25F, acne treatment at clinic",rejected
+"48M, cataract surgery in Delhi",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"65M, stroke emergency hospitalization",approved
+"40M, appendix removal in Hyderabad",approved
+"26F, therapy for anxiety",rejected
+"48M, cataract surgery in Delhi",approved
+"35F, weight loss surgery with BMI 42",approved
+"32F, gall bladder removal, 2-year policy",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"28M, cosmetic nose surgery",rejected
+"48M, cataract surgery in Delhi",approved
+"45M, hernia surgery, 3-month policy",rejected
+"26F, therapy for anxiety",rejected
+"26F, therapy for anxiety",rejected
+"28M, cosmetic nose surgery",rejected
+"35F, weight loss surgery with BMI 42",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"35F, weight loss surgery with BMI 42",approved
+"30F, vision correction laser surgery",rejected
+"33F, C-section delivery, 1-year policy",approved
+"25F, acne treatment at clinic",rejected
+"54M, spine surgery advised by doctor",approved
+"35F, weight loss surgery with BMI 42",approved
+"25F, acne treatment at clinic",rejected
+"42M, accident injury claim in Mumbai",approved
+"50M, diabetes hospitalization, 6-month policy",approved
+"35F, weight loss surgery with BMI 42",approved
+"30F, vision correction laser surgery",rejected
+"33F, C-section delivery, 1-year policy",approved
+"25F, acne treatment at clinic",rejected
+"29F, dental cleaning",rejected
+"26F, therapy for anxiety",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"38F, knee pain medication claim",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"54M, spine surgery advised by doctor",approved
+"40M, appendix removal in Hyderabad",approved
+"38F, knee pain medication claim",rejected
+"30F, vision correction laser surgery",rejected
+"50M, diabetes hospitalization, 6-month policy",approved
+"42M, accident injury claim in Mumbai",approved
+"42M, accident injury claim in Mumbai",approved
+"54M, spine surgery advised by doctor",approved
+"45M, hernia surgery, 3-month policy",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"38F, knee pain medication claim",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"65M, stroke emergency hospitalization",approved
+"60M, heart bypass with 1-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"60M, heart bypass with 1-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"42M, accident injury claim in Mumbai",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"40M, appendix removal in Hyderabad",approved
+"32F, gall bladder removal, 2-year policy",approved
+"55F, breast cancer treatment, 2-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"54M, spine surgery advised by doctor",approved
+"30F, vision correction laser surgery",rejected
+"25F, acne treatment at clinic",rejected
+"54M, spine surgery advised by doctor",approved
+"28M, cosmetic nose surgery",rejected
+"48M, cataract surgery in Delhi",approved
+"35F, weight loss surgery with BMI 42",approved
+"30F, vision correction laser surgery",rejected
+"42M, accident injury claim in Mumbai",approved
+"25F, acne treatment at clinic",rejected
+"60M, heart bypass with 1-year policy",approved
+"30F, vision correction laser surgery",rejected
+"30F, vision correction laser surgery",rejected
+"32F, gall bladder removal, 2-year policy",approved
+"60M, heart bypass with 1-year policy",approved
+"38F, knee pain medication claim",rejected
+"54M, spine surgery advised by doctor",approved
+"38F, knee pain medication claim",rejected
+"30F, vision correction laser surgery",rejected
+"25F, acne treatment at clinic",rejected
+"42M, accident injury claim in Mumbai",approved
+"29F, dental cleaning",rejected
+"26F, therapy for anxiety",rejected
+"38F, knee pain medication claim",rejected
+"48M, cataract surgery in Delhi",approved
+"45M, hernia surgery, 3-month policy",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"38F, knee pain medication claim",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"45M, hernia surgery, 3-month policy",rejected
+"46M, knee surgery in Pune, 3-month policy",rejected
+"25F, acne treatment at clinic",rejected
+"54M, spine surgery advised by doctor",approved
+"25F, acne treatment at clinic",rejected
+"55F, breast cancer treatment, 2-year policy",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"54M, spine surgery advised by doctor",approved
+"25F, acne treatment at clinic",rejected
+"35F, weight loss surgery with BMI 42",approved
+"38F, knee pain medication claim",rejected
+"26F, therapy for anxiety",rejected
+"42M, accident injury claim in Mumbai",approved
+"46M, knee surgery in Pune, 3-month policy",rejected
+"54M, spine surgery advised by doctor",approved
+"37F, gallstones removal not advised by doctor",rejected
+"30F, vision correction laser surgery",rejected
+"42M, accident injury claim in Mumbai",approved
+"48M, cataract surgery in Delhi",approved

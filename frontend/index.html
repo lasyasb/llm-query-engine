@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Policy Query Assistant 🤖</title>
+  <link rel="stylesheet" href="style.css?v=2">
+
+</head>
+<body>
+  <h1>Policy Query Assistant 🤖</h1>
+
+  <form id="query-form">
+    <textarea id="query" placeholder="e.g. 46M, knee surgery in Pune, 3-month policy" rows="6"></textarea>
+    <br>
+    <input type="file" id="file-upload" />
+    <div id="drop-area">Drag & drop your policy PDF here</div>
+    <button type="submit">Submit Query</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #e9efff, #fdfbfb);
+  padding: 2rem;
+  color: #333;
+  min-height: 100vh;
+  animation: fadeIn 1s ease-in;
+}
+
+h1 {
+    position: sticky;
+    top: 0;
+    background-color: #f4f4f9;
+    padding: 1rem;
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  50% { border-color: transparent; }
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  animation: fadeUp 1.2s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+textarea {
+  padding: 1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  transition: 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #0078d4;
+  outline: none;
+  box-shadow: 0 0 5px #0078d4;
+}
+
+#file-upload {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+#drop-area {
+  border: 2px dashed #aaa;
+  padding: 1rem;
+  text-align: center;
+  color: #666;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+#drop-area:hover,
+#drop-area.dragover {
+  background-color: #e8f0ff;
+  border-color: #0078d4;
+  color: #333;
+}
+
+button {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005a9e;
+  transform: scale(1.03);
+}
+
+#result {
+  margin-top: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  animation: fadeIn 1s ease-in;
+}
+
+.decision.approved {
+  color: green;
+  font-weight: bold;
+}
+
+.decision.rejected {
+  color: red;
+  font-weight: bold;
+}
+
+.loading {
+  font-style: italic;
+  color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

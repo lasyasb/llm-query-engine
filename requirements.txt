@@ -1,0 +1,32 @@
+# 🔧 Web framework
+fastapi
+uvicorn[standard]
+
+# 📦 Document handling
+python-docx
+pdfplumber
+PyMuPDF
+
+# 📧 Email parsing
+extract-msg
+python-dotenv
+
+# 🤖 LLM + Embeddings
+openai
+cohere
+sentence-transformers
+
+# 🔍 Vector search
+faiss-cpu
+
+# 🧠 NLP & utilities
+nltk
+scikit-learn
+pydantic
+tqdm
+
+# 🧪 Testing + Dev
+httpx
+
+python-dotenv
+python-multipart

@@ -51,7 +51,7 @@ User Question:
 Relevant Policy Clauses:
 {chr(10).join(f"- {clause}" for clause in clauses)}
 
-Answer the question in a single sentence or two lines max, using simple and concise language.
+Answer the question in only a single sentence  using simple and concise language.
 """
 
 def get_llm_decision(user_query: str, clauses: list[str]) -> QueryResponse:

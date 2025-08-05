@@ -53,7 +53,6 @@ Relevant Policy Clauses:
 
 Answer the question in only a single sentence  using simple and concise language.
 """
-
 def get_llm_decision(user_query: str, clauses: list[str]) -> QueryResponse:
     prompt = build_prompt(user_query, clauses)
 
@@ -64,10 +63,13 @@ def get_llm_decision(user_query: str, clauses: list[str]) -> QueryResponse:
     }
 
     response = requests.post(f"{API_URL}/chat/completions", headers=HEADERS, json=payload)
-    reply = response.json()
-    content = reply["choices"][0]["message"]["content"].strip()
+    content = response.json()["choices"][0]["message"]["content"].strip()
 
-    ref_lines = [line for line in content.splitlines() if "clause" in line.lower() or "section" in line.lower()]
+    ref_lines = [
+        line.strip()
+        for line in content.splitlines()
+        if "clause" in line.lower() or "section" in line.lower()
+    ]
 
     return QueryResponse(
         decision="informational",

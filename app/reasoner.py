@@ -1,7 +1,9 @@
+# app/reasoner.py
 import os
 from dotenv import load_dotenv
 import requests
 from app.models import QueryResponse, Justification
+from typing import List, Union
 
 load_dotenv()
 
@@ -51,20 +53,54 @@ User Question:
 Relevant Policy Clauses:
 {chr(10).join(f"- {clause}" for clause in clauses)}
 
-Answer the question in only a single sentence  using simple and concise language.
+Answer the question in only a single sentence using simple and concise language.
 """
-def get_llm_decision(user_query: str, clauses: list[str]) -> QueryResponse:
-    prompt = build_prompt(user_query, clauses)
 
-    payload = {
-        "model": MODEL_NAME,
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.3
-    }
+def get_llm_decision(user_query: str, clauses: Union[List[str], str]) -> QueryResponse:
+    # 🧠 If document has relevant clauses, try answering from them
+    if clauses:
+        prompt = build_prompt(user_query, clauses)
 
-    response = requests.post(f"{API_URL}/chat/completions", headers=HEADERS, json=payload)
-    content = response.json()["choices"][0]["message"]["content"].strip()
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3
+        }
 
+        response = requests.post(f"{API_URL}/chat/completions", headers=HEADERS, json=payload)
+        content = response.json()["choices"][0]["message"]["content"].strip()
+
+        # 🚨 If the LLM says "Not mentioned", fallback to general knowledge
+        if "not mentioned" in content.lower():
+            print("⚠️ Not found in document — falling back to general knowledge.")
+            return get_llm_decision(user_query, clauses=[])  # Trigger fallback mode
+    else:
+        # 🧠 General knowledge fallback (now: short and to the point)
+        prompt = f"""You are a confident, knowledgeable AI assistant.
+
+Answer the question briefly in 1 sentence based on common Indian health insurance practices. Keep the language simple and avoid unnecessary detail.
+
+User Question:
+\"\"\"{user_query}\"\"\"
+
+Answer:
+"""
+
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3
+        }
+
+        response = requests.post(f"{API_URL}/chat/completions", headers=HEADERS, json=payload)
+
+        try:
+            content = response.json()["choices"][0]["message"]["content"].strip()
+        except (KeyError, IndexError):
+            print("⚠️ Raw LLM response:", response.text)
+            raise Exception("Invalid LLM response: 'choices' not found.")
+
+    # 🧾 Extract clause refs if present
     ref_lines = [
         line.strip()
         for line in content.splitlines()
@@ -76,6 +112,6 @@ def get_llm_decision(user_query: str, clauses: list[str]) -> QueryResponse:
         amount="—",
         justification=Justification(
             summary=content,
-            clause_refs=ref_lines[:3]
+            clause_refs=ref_lines[:3] if clauses else []  # Include refs only if doc-based
         )
     )

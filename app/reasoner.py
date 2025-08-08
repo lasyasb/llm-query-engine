@@ -4,9 +4,7 @@ from dotenv import load_dotenv
 import requests
 from app.models import QueryResponse, Justification
 from typing import List, Union
-
 load_dotenv()
-
 API_KEY = os.getenv("MISTRAL_API_KEY")
 API_URL = os.getenv("MISTRAL_API_BASE", "https://api.mistral.ai/v1")
 MODEL_NAME = "mistral-small-latest"

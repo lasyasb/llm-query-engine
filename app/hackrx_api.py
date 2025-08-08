@@ -7,12 +7,9 @@ from dotenv import load_dotenv
 
 from app.retriever import retrieve_relevant_clauses
 from app.reasoner import get_llm_decision
-
 router = APIRouter()
-
 load_dotenv()
 API_KEY = os.getenv("API_KEY", "test-key")
-
 class HackRxRequest(BaseModel):
     documents: Optional[str] = None
     questions: List[str]
